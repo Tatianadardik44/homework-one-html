@@ -1,0 +1,140 @@
+body {
+  background-color: #fafafa;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #111111;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+}
+.icon-header {
+  color: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.span-icon {
+  color: inherit;
+  font-style: italic;
+  font-weight: 700;
+}
+.nav-header > li > a {
+  color: inherit;
+  font-weight: 500;
+  line-height: 16px;
+}
+.title-doc {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.84px;
+}
+.btn-start-first {
+  background-color: #fd9222;
+  color: #ffffff;
+  font-weight: 600;
+}
+.btn-scroll {
+  font-weight: 500;
+}
+.benefits {
+  background-color: #1e1823;
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.18px;
+}
+.benefits-task {
+  color: #ffffff;
+  letter-spacing: -0.28px;
+}
+.ingredients {
+  background-color: #ffffff;
+}
+.ingredients-task {
+  letter-spacing: -0.28px;
+}
+.ingredients-span {
+  color: #fd9222;
+}
+.box-task {
+  text-transform: uppercase;
+  letter-spacing: -0.28px;
+}
+.box-first {
+  background-color: #fd9222;
+}
+.box-first-task {
+  color: #ffffff;
+}
+.box-second {
+  border: #fd9222;
+  background-color: #ffffff;
+}
+.box-second-task {
+  text-transform: uppercase;
+}
+.box-third {
+  background-color: #1e1823;
+}
+.box-third-task {
+  color: #ffffff;
+}
+.box-fourth {
+  border: #fd9222;
+  background-color: #ffffff;
+}
+.recipe-title {
+}
+.recipe-span {
+  color: #fd9222;
+}
+.box-recipe {
+  background-color: #ffffff;
+}
+.title-recipe-list {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.list-recipe {
+  letter-spacing: -0.28px;
+}
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  font-weight: 600;
+}
+.product-task {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  color: rgba(17, 17, 17, 0.7);
+}
+.btn-product-card {
+  background-color: #fafafa;
+}
