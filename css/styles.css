@@ -62,40 +62,40 @@ h2 {
   color: #ffffff;
   letter-spacing: 0.18px;
 }
-.benefits-task {
+.benefits-text {
   color: #ffffff;
   letter-spacing: -0.28px;
 }
 .ingredients {
   background-color: #ffffff;
 }
-.ingredients-task {
+.ingredients-text {
   letter-spacing: -0.28px;
 }
 .ingredients-span {
   color: #fd9222;
 }
-.box-task {
+.ingredients-box-text {
   text-transform: uppercase;
   letter-spacing: -0.28px;
 }
 .box-first {
   background-color: #fd9222;
 }
-.box-first-task {
+.box-first-text {
   color: #ffffff;
 }
 .box-second {
   border: #fd9222;
   background-color: #ffffff;
 }
-.box-second-task {
+.box-second-text {
   text-transform: uppercase;
 }
 .box-third {
   background-color: #1e1823;
 }
-.box-third-task {
+.box-third-text {
   color: #ffffff;
 }
 .box-fourth {
@@ -118,6 +118,9 @@ h2 {
 .list-recipe {
   letter-spacing: -0.28px;
 }
+.product-span {
+  color: #fd9222;
+}
 .product-card {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -129,7 +132,7 @@ h2 {
   letter-spacing: -0.36px;
   font-weight: 600;
 }
-.product-task {
+.product-text {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: -0.24px;
@@ -137,4 +140,81 @@ h2 {
 }
 .btn-product-card {
   background-color: #fafafa;
+  font-weight: 600;
+}
+.selerrs-title-span {
+  color: #fd9222;
+}
+.selers-text {
+  letter-spacing: -0.28px;
+}
+.selers-btn {
+  background-color: #fd9222;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600px;
+}
+.reviews-title-span {
+  color: #fd9222;
+}
+.reviews-box {
+  background-color: #ffffff;
+}
+.riviews-name {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.riviews-text {
+  letter-spacing: -0.28px;
+  color: rgba(17, 17, 17, 0.7);
+}
+.reviews-btn {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: inherit;
+}
+.subcribe {
+  background-color: #111111;
+}
+.subcribe-title {
+  color: #ffffff;
+}
+.subcribe-text {
+  color: #ffffff;
+  letter-spacing: -0.28px;
+}
+.subcribe-btn {
+  background-color: #fd9222;
+  color: #ffffff;
+  font-weight: 600;
+}
+.footer-box {
+  background-color: #1e1823;
+}
+.footer-text {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+  font-weight: 500;
+}
+.footer-span {
+  color: #fd9222;
+}
+.contact-title {
+  color: #ffffff;
+  font-weight: 500;
+}
+.contact-tel {
+  color: #ffffff;
+}
+.contact-mail {
+  color: #ffffff;
+}
+.nav-footer-list {
+  line-height: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: -0.28px;
 }
