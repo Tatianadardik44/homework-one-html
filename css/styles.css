@@ -34,12 +34,29 @@ h2 {
   font-style: italic;
   font-weight: 700;
 }
+.header-icon-img {
+  color: #fd9222;
+  fill: #fafafa;
+  stroke: currentColor;
+}
 .nav-header > li > a {
   color: inherit;
   font-weight: 500;
   line-height: 16px;
 }
+.header-sicials-icon {
+  color: #111111;
+  stroke: currentColor;
+  fill: none;
+}
+.header-sicials-icon:hover {
+  color: #fd9222;
+}
+.start-page {
+  background-color: rgba(17, 17, 17, 0.5);
+}
 .title-doc {
+  color: #ffffff;
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
@@ -49,12 +66,50 @@ h2 {
   background-color: #fd9222;
   color: #ffffff;
   font-weight: 600;
+  border-color: #fd9222;
 }
+.btn-start-first:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+  border-color: #fcf1e0;
+}
+.btn-start-second {
+  color: #ffffff;
+  background-color: inherit;
+  border-color: #ffffff;
+}
+.btn-start-second:hover {
+  background-color: #ffffff;
+  color: #fd9222;
+  border-color: #fd9222;
+}
+
 .btn-scroll {
   font-weight: 500;
+  background-color: inherit;
+  color: #ffffff;
+  border: none;
 }
+.btn-scroll:hover {
+  color: #fd9222;
+}
+.scroll-icon {
+  color: #fd9222;
+
+  fill: currentColor;
+  background-color: #ffffff;
+}
+.btn-scroll:hover .scroll-icon {
+  color: #ffffff;
+  background-color: #fd9222;
+}
+
 .benefits {
   background-color: #1e1823;
+}
+.benefits-icon-first {
+  color: #fd9222;
+  fill: currentColor;
 }
 .benefits-title {
   font-weight: 600;
@@ -118,6 +173,9 @@ h2 {
 .list-recipe {
   letter-spacing: -0.28px;
 }
+.offer-banner {
+  fill: rgba(17, 17, 17, 0.1);
+}
 .product-span {
   color: #fd9222;
 }
@@ -152,7 +210,12 @@ h2 {
   background-color: #fd9222;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
+  border: none;
+}
+.selers-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 .reviews-title-span {
   color: #fd9222;
@@ -169,10 +232,18 @@ h2 {
   letter-spacing: -0.28px;
   color: rgba(17, 17, 17, 0.7);
 }
+.banner-cort {
+  fill: rgba(17, 17, 17, 0.1);
+}
 .reviews-btn {
   font-size: 18px;
   font-weight: 600;
   background-color: inherit;
+  border-color: #fd9222;
+}
+.reviews-btn:hover {
+  background-color: #fd9222;
+  color: #ffffff;
 }
 .subcribe {
   background-color: #111111;
@@ -217,4 +288,15 @@ h2 {
   color: #ffffff;
   font-weight: 500;
   letter-spacing: -0.28px;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-socials-img {
+  color: white;
+  stroke: currentColor;
+}
+.footer-socials-img:hover {
+  color: #fd9222;
 }
