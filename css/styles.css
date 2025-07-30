@@ -1,7 +1,7 @@
 body {
   background-color: #fafafa;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.29;
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -16,15 +16,16 @@ a {
 }
 h2 {
   text-transform: uppercase;
+  text-align: center;
   font-weight: 600;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   letter-spacing: -0.72px;
 }
 .icon-header {
   color: inherit;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 1.11;
   letter-spacing: -0.54px;
   font-weight: 700;
   text-transform: uppercase;
@@ -35,23 +36,28 @@ h2 {
   font-weight: 700;
 }
 .header-icon-img {
-  color: #fd9222;
   fill: #fafafa;
-  stroke: currentColor;
+  stroke: #fd9222;
 }
 .nav-header > li > a {
   color: inherit;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
+}
+.header-item:hover,
+.header-item:focus {
+  color: #fd9222;
 }
 .header-sicials-icon {
   color: #111111;
   stroke: currentColor;
   fill: none;
 }
-.header-sicials-icon:hover {
+.header-link:hover .header-sicials-icon,
+.header-link:focus .header-sicials-icon {
   color: #fd9222;
 }
+
 .start-page {
   background-color: rgba(17, 17, 17, 0.5);
 }
@@ -59,7 +65,7 @@ h2 {
   color: #ffffff;
   font-weight: 500;
   font-size: 28px;
-  line-height: 34px;
+  line-height: 1.21;
   letter-spacing: -0.84px;
 }
 .btn-start-first {
@@ -68,7 +74,8 @@ h2 {
   font-weight: 600;
   border-color: #fd9222;
 }
-.btn-start-first:hover {
+.btn-start-first:hover,
+.btn-start-first:focus {
   background-color: #fcf1e0;
   color: #fd9222;
   border-color: #fcf1e0;
@@ -78,7 +85,8 @@ h2 {
   background-color: inherit;
   border-color: #ffffff;
 }
-.btn-start-second:hover {
+.btn-start-second:hover,
+.btn-start-second:focus {
   background-color: #ffffff;
   color: #fd9222;
   border-color: #fd9222;
@@ -90,16 +98,17 @@ h2 {
   color: #ffffff;
   border: none;
 }
-.btn-scroll:hover {
+.btn-scroll:hover,
+.btn-scroll:focus {
   color: #fd9222;
 }
 .scroll-icon {
   color: #fd9222;
-
   fill: currentColor;
   background-color: #ffffff;
 }
-.btn-scroll:hover .scroll-icon {
+.btn-scroll:hover .scroll-icon,
+.btn-scroll:focus .scroll-icon {
   color: #ffffff;
   background-color: #fd9222;
 }
@@ -126,6 +135,7 @@ h2 {
 }
 .ingredients-text {
   letter-spacing: -0.28px;
+  text-align: center;
 }
 .ingredients-span {
   color: #fd9222;
@@ -167,7 +177,7 @@ h2 {
 }
 .title-recipe-list {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   font-weight: 600;
 }
 .list-recipe {
@@ -186,13 +196,13 @@ h2 {
 .product-name {
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: -0.36px;
   font-weight: 600;
 }
 .product-text {
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: -0.24px;
   color: rgba(17, 17, 17, 0.7);
 }
@@ -213,7 +223,8 @@ h2 {
   font-weight: 600;
   border: none;
 }
-.selers-btn:hover {
+.selers-btn:hover,
+.selers-btn:focus {
   background-color: #fcf1e0;
   color: #fd9222;
 }
@@ -223,12 +234,15 @@ h2 {
 .reviews-box {
   background-color: #ffffff;
 }
+
 .riviews-name {
+  text-align: center;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   font-weight: 600;
 }
 .riviews-text {
+  text-align: center;
   letter-spacing: -0.28px;
   color: rgba(17, 17, 17, 0.7);
 }
@@ -241,7 +255,8 @@ h2 {
   background-color: inherit;
   border-color: #fd9222;
 }
-.reviews-btn:hover {
+.reviews-btn:hover,
+.reviews-btn:focus {
   background-color: #fd9222;
   color: #ffffff;
 }
@@ -260,13 +275,18 @@ h2 {
   color: #ffffff;
   font-weight: 600;
 }
+.subcribe-btn:hover,
+.subcribe-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
 .footer-box {
   background-color: #1e1823;
 }
 .footer-text {
   color: #ffffff;
   font-size: 28px;
-  line-height: 34px;
+  line-height: 1.21;
   letter-spacing: -0.56px;
   font-weight: 500;
 }
@@ -289,6 +309,10 @@ h2 {
   font-weight: 500;
   letter-spacing: -0.28px;
 }
+.nav-footer-list:hover,
+.nav-footer-list:focus {
+  color: #fd9222;
+}
 .footer-list {
 }
 .footer-item {
@@ -297,6 +321,15 @@ h2 {
   color: white;
   stroke: currentColor;
 }
-.footer-socials-img:hover {
+.footer-contact:hover,
+.footer-contact:focus {
+  color: #fd9222;
+}
+/* .footer-socials-img:hover,
+.footer-socials-img:focus {
+  color: #fd9222;
+} */
+.link-footer:focus .footer-socials-img,
+.link-footer:hover .footer-socials-img {
   color: #fd9222;
 }

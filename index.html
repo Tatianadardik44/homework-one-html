@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,24 +27,27 @@
     <header id="home">
       <div class="">
         <nav>
-          <a href="" class="icon-header">
+          <a class="icon-header" href="/">
             <span class="span-icon">Symply</span> Chocolate
             <svg class="header-icon-img" width="24" height="24">
               <use href="./images/icons/symbol-defs.svg#icon-icon"></use>
             </svg>
           </a>
           <ul class="nav-header">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#made">How it's made?</a></li>
-            <li><a href="#products">Our products</a></li>
-            <li><a href="#sellers">Top sellers</a></li>
-            <li><a href="#reviews">Chocolate is loved</a></li>
+            <li><a class="header-item" href="#home">Home</a></li>
+            <li><a class="header-item" href="#made">How it's made?</a></li>
+            <li><a class="header-item" href="#products">Our products</a></li>
+            <li><a class="header-item" href="#sellers">Top sellers</a></li>
+            <li>
+              <a class="header-item" href="#reviews">Chocolate is loved</a>
+            </li>
           </ul>
         </nav>
         <div class="">
           <ul>
             <li>
               <a
+                class="header-link"
                 href="https://instagram.com"
                 aria-label="Instagram site"
                 target="_blank"
@@ -51,6 +60,7 @@
             </li>
             <li>
               <a
+                class="header-link"
                 href="https://twitter.com"
                 aria-label="twitter site"
                 target="_blank"
@@ -74,16 +84,16 @@
           </h1>
           <ul>
             <li>
-              <button type="button" class="btn-start-first">Buy now</button>
+              <button class="btn-start-first" type="button">Buy now</button>
             </li>
             <li>
-              <button type="button" class="btn-start-second">
+              <button class="btn-start-second" type="button">
                 How it's made
               </button>
             </li>
           </ul>
 
-          <button type="button" class="btn-scroll">
+          <button class="btn-scroll" type="button">
             scroll down
             <svg class="scroll-icon" width="22" height="22">
               <use
@@ -268,7 +278,7 @@
           </div>
         </div>
       </section>
-      <svg class="offer-banner" width="210" heught="13">
+      <svg class="offer-banner" width="210" height="13">
         <use href="./images/icons/symbol-defs.svg#icon-offer-banner"></use>
       </svg>
       <section id="sellers" class="sellers">
@@ -304,6 +314,7 @@
         <div class="">
           <div class="reviews-box">
             <img
+              class="rewiews-img"
               src="./images/reviews/Ellipse.png"
               alt="woman"
               width="80"
@@ -316,6 +327,7 @@
           </div>
           <div class="reviews-box">
             <img
+              class="rewiews-img"
               src="./images/reviews/Ellipse-1.png"
               alt="man"
               width="80"
@@ -329,6 +341,7 @@
           </div>
           <div class="reviews-box">
             <img
+              class="rewiews-img"
               src="./images/reviews/Ellipse-2.png"
               alt="woman"
               width="80"
@@ -341,7 +354,7 @@
             </p>
           </div>
         </div>
-        <svg class="banner-cort" widht="106" height="13">
+        <svg class="banner-cort" width="106" height="13">
           <use
             href="./images/icons/symbol-defs.svg#icon-offer-banner-cort"></use>
         </svg>
@@ -374,10 +387,12 @@
 
         <address>
           <p class="contact-title">Contact us</p>
-          <a href="tel:+380684439426" class="contact-tel"
+          <a href="tel:+380684439426" class="contact-tel footer-contact"
             >+380 (68) 443-94-26</a
           >
-          <a href="mailto:simplychoc@gmail.com" class="contact-mail"
+          <a
+            href="mailto:simplychoc@gmail.com"
+            class="contact-mail footer-contact"
             >simplychoc@gmail.com</a
           >
         </address>
@@ -385,15 +400,25 @@
         <div class="">
           <ul class="footer-list">
             <li class="footer-item">
-              <a href="">
+              <a
+                href="https://instagram.com"
+                aria-label="Instagram site"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-footer">
                 <svg class="footer-socials-img" width="24" height="24">
                   <use
                     href="./images/icons/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="">
+            <li class="footer-item">
+              <a
+                href="https://twitter.com"
+                aria-label="twitter site"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-footer">
                 <svg class="footer-socials-img" width="24" height="24">
                   <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
                 </svg>
