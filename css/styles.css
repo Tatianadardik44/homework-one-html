@@ -12,26 +12,37 @@ ol {
   list-style-type: none;
 }
 a {
+  color: inherit;
   text-decoration: none;
 }
-h2 {
+
+button {
+  cursor: pointer;
+}
+.ingredients-title,
+.recipe-title,
+.products-title,
+.sellers-title,
+.reviews-title,
+.subcribe-title {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.03em;
+}
+.accent {
+  color: #fd9222;
 }
 .icon-header {
-  color: inherit;
   font-size: 18px;
   line-height: 1.11;
-  letter-spacing: -0.54px;
+  letter-spacing: -0.03em;
   font-weight: 700;
   text-transform: uppercase;
 }
 .span-icon {
-  color: inherit;
   font-style: italic;
   font-weight: 700;
 }
@@ -39,17 +50,16 @@ h2 {
   fill: #fafafa;
   stroke: #fd9222;
 }
-.nav-header > li > a {
-  color: inherit;
+.header-item {
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: -0.02em;
 }
 .header-item:hover,
 .header-item:focus {
   color: #fd9222;
 }
 .header-sicials-icon {
-  color: #111111;
   stroke: currentColor;
   fill: none;
 }
@@ -66,7 +76,7 @@ h2 {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
-  letter-spacing: -0.84px;
+  letter-spacing: -0.03em;
 }
 .btn-start-first {
   background-color: #fd9222;
@@ -128,21 +138,19 @@ h2 {
 }
 .benefits-text {
   color: #ffffff;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 .ingredients {
   background-color: #ffffff;
 }
 .ingredients-text {
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   text-align: center;
 }
-.ingredients-span {
-  color: #fd9222;
-}
+
 .ingredients-box-text {
   text-transform: uppercase;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 .box-first {
   background-color: #fd9222;
@@ -154,9 +162,7 @@ h2 {
   border: #fd9222;
   background-color: #ffffff;
 }
-.box-second-text {
-  text-transform: uppercase;
-}
+
 .box-third {
   background-color: #1e1823;
 }
@@ -169,9 +175,7 @@ h2 {
 }
 .recipe-title {
 }
-.recipe-span {
-  color: #fd9222;
-}
+
 .box-recipe {
   background-color: #ffffff;
 }
@@ -181,14 +185,12 @@ h2 {
   font-weight: 600;
 }
 .list-recipe {
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 .offer-banner {
   fill: rgba(17, 17, 17, 0.1);
 }
-.product-span {
-  color: #fd9222;
-}
+
 .product-card {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -197,22 +199,20 @@ h2 {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 1.33;
-  letter-spacing: -0.36px;
+  letter-spacing: -0.02em;
   font-weight: 600;
 }
 .product-text {
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: -0.24px;
+  letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
 }
 .btn-product-card {
   background-color: #fafafa;
   font-weight: 600;
 }
-.selerrs-title-span {
-  color: #fd9222;
-}
+
 .selers-text {
   letter-spacing: -0.28px;
 }
@@ -228,9 +228,7 @@ h2 {
   background-color: #fcf1e0;
   color: #fd9222;
 }
-.reviews-title-span {
-  color: #fd9222;
-}
+
 .reviews-box {
   background-color: #ffffff;
 }
@@ -243,7 +241,7 @@ h2 {
 }
 .riviews-text {
   text-align: center;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
 }
 .banner-cort {
@@ -287,7 +285,7 @@ h2 {
   color: #ffffff;
   font-size: 28px;
   line-height: 1.21;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.02em;
   font-weight: 500;
 }
 .footer-span {
@@ -297,17 +295,15 @@ h2 {
   color: #ffffff;
   font-weight: 500;
 }
-.contact-tel {
+.footer-contact {
   color: #ffffff;
 }
-.contact-mail {
-  color: #ffffff;
-}
+
 .nav-footer-list {
   line-height: 16px;
   color: #ffffff;
   font-weight: 500;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 .nav-footer-list:hover,
 .nav-footer-list:focus {
@@ -318,17 +314,14 @@ h2 {
 .footer-item {
 }
 .footer-socials-img {
-  color: white;
+  color: #ffffff;
   stroke: currentColor;
 }
 .footer-contact:hover,
 .footer-contact:focus {
   color: #fd9222;
 }
-/* .footer-socials-img:hover,
-.footer-socials-img:focus {
-  color: #fd9222;
-} */
+
 .link-footer:focus .footer-socials-img,
 .link-footer:hover .footer-socials-img {
   color: #fd9222;
